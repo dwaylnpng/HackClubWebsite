@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>MHH</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="header" id="home">
+    <nav>
+      <a href="#"><img src="imgs/logo.png" alt=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Muhammad Haras Hassan</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis enim non venenatis sagittis. Nulla facilisi.<br />Sed ultrices massa lorem, nec viverra enim placerat non.
+      </p>
+      <a href="" class="btn-1">Lorem Ipsum</a>
+    </div>
+  </section>
+  <!-- End Header -->
+  <!-- Start About ME -->
+  <section class="spechial-heading">
+    <h1>About Me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Car Lover</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cum ullam quod sint vel quam numquam, ex magni
+          voluptatum blanditiis qui quasi quibusdam fugiat repellendus, tempora esse. Consectetur, hic.</p>
+      </div>
+      <div class="course-col">
+        <h3>Book Worm</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cum ullam quod sint vel quam numquam, ex magni
+          voluptatum blanditiis qui quasi quibusdam fugiat repellendus, tempora esse. Consectetur, hic.</p>
+      </div>
+      <div class="course-col">
+        <h3>Computer Addict</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cum ullam quod sint vel quam numquam, ex magni
+          voluptatum blanditiis qui quasi quibusdam fugiat repellendus, tempora esse. Consectetur, hic.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Me -->
+  <!-- Start My Projects -->
+  <section class="spechial-heading">
+    <h1>My Projects</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="capus-col">
+        <img src="imgs/Tesla.jpg" alt="Image">
+        <div class="layer">
+          <h3>3D Tesla Blender</h3>
+        </div>
+      </div>
+      <div class="capus-col">
+        <img src="imgs/ISS.png" alt="Image">
+        <div class="layer">
+          <h3>ISS Blender<br>(WIP)</h3>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+  <!-- End My Projects -->
+  <!-- Start What I Love -->
+  <section class="spechial-heading">
+    <h1>What I Love</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="imgs/MercedesGT.jpeg" alt="">
+        <h3>Mercedes GT Coupé</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum id sunt quae.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="imgs/DeathontheNile.jpg" alt="">
+        <h3>Death on the Nile</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum id sunt quae.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="imgs/ApolloIE.jpg" alt="">
+        <h3>Apollo IE</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum id sunt quae.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End What I Love -->
+  <!-- Start Footer -->
+  <footer>
+    <h4>Lorem Ipsum</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque exercitationem, <br /> voluptas accusamus rerum officia
+      impedit alias sint iste aut hic.</p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made by Muhammad Haras Hassan<br>Copyright © 2024</p>
+  </footer>
+  <!-- End Footer -->
+  <div class="up">
+    <a href="#home">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0"
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px"
+    }
+  </script>
+
+
+</body>
+
+</html>
