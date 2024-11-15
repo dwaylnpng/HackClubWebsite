@@ -40,7 +40,7 @@ ul {
 }
 
 
-/* Satrt Header */
+/* Start Header */
 .header {
   width: 100%;
   height: 100vh;
@@ -187,13 +187,13 @@ width: 100%;
   transition: 0.5s;
 }
 /* End Header */
- /* Start Course  */
+ /* Start Hobby  */
 .row {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
-.course-col {
+.hobby-col {
   flex-basis: 31%;
   background-color: #fff3f3;
   border-radius: 10px;
@@ -201,12 +201,12 @@ width: 100%;
   padding: 50px 30px;
   transition: 0.4s;
 }
-.course-col h3 {
+.hobby-col h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
-.course-col:hover {
+.hobby-col:hover {
   box-shadow: 0 0 20px 0px;
 }
 @media (max-width: 700px) {
@@ -214,9 +214,9 @@ width: 100%;
     flex-direction: column;
   }
 }
- /* End Course  */
- /* Start Campus  */
-.capus-col {
+ /* End hobby  */
+ /* Start Projects  */
+.project-col {
   flex-basis: 48%;
 	max-height: 300px;
   border-radius: 10px;
@@ -224,11 +224,11 @@ width: 100%;
   position: relative;
   overflow: hidden;
 }
-.capus-col img {
+.project-col img {
   width: 100%;
   display: block;
 }
-.capus-col .layer {
+.project-col .layer {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -236,10 +236,10 @@ width: 100%;
   left: 0;
   transition: 0.4s;
 }
-.capus-col .layer:hover {
+.project-col .layer:hover {
   background-color: rgb(255,255, 0,0.7);
 }
-.capus-col .layer h3 {
+.project-col .layer h3 {
   width: 100%;
   font-weight: 500;
   color: #fff;
@@ -251,13 +251,13 @@ width: 100%;
   opacity: 0;
   transition: 0.4s;
 }
-.capus-col .layer:hover h3 {
+.project-col .layer:hover h3 {
 bottom: 49%;
 opacity: 1;
 }
- /* End Campus  */
- /* Start Facilities */
-.facilities-col {
+ /* End Projects  */
+ /* Start What I Love */
+.whatilove-col {
   flex-basis: 31%;
 	max-width: 300px;
 	height: 500px;
@@ -265,83 +265,20 @@ opacity: 1;
   margin-bottom: 5%;
   text-align: left;
 }
-.facilities-col img {
+.whatilove-col img {
   width: 100%;
   border-radius: 10px;
 }
-.facilities-col p {
+.whatilove-col p {
   padding: 0;
 }
-.facilities-col h3 {
+.whatilove-col h3 {
   margin-top: 16px;
   margin-bottom: 16px;
   text-align: left;
 }
- /* End Facilities */
-  /* Start Testmonials  */
-.testmon-col {
-  flex-basis: 48%;
-  border-radius: 10px;
-  text-align: left;
-  margin-bottom: 5%;
-  background-color: #fff3f3;
-  padding: 25px;
-  cursor: pointer;
-  display: flex;
-}
-.testmon-col img {
-  height: 40px; 
-  margin-left: 5px;
-  margin-right: 30px;
-  border-radius: 50%;
-}
-.testmon-col p {
-  padding: 0;
-}
-.testmon-col h3 {
-  margin-top: 15px;
-  text-align: left;
-}
-.testmon-col i {
-  margin-top: 15px;
-  color: var(--main-color);
-}
-@media (max-width: 700px) {
-  .testmon-col img {
-    margin-left: 0;
-    margin-right: 15px;
-  }
-}
+ /* End What I Love */
 
-  /* End Testmonials  */
-  /* Start Call to Action */
-  .cta {
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-    url(../imgs/banner.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-  }
-  .cta h1 {
-    text-transform: capitalize;
-    color: #fff;
-    margin-bottom: 40px;
-    padding: 0;
-  }
-  .cta h1 span {
-    color: var(--main-color);
-  }
-
-  @media (max-width: 700px) {
-    .cta h1 {
-      font-size: 24px;
-    }
-  }
-  /* End Call to Action */
   /* Start Footer */
   footer {
     width: 100%;
